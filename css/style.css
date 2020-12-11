@@ -83,8 +83,10 @@ body {
   padding-bottom: 32px;
 
   position: relative;
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
-.menu-nav li {
+li {
   list-style-type: none;
 }
 .nav-contacs a {
@@ -139,12 +141,15 @@ p {
   display: flex;
   align-items: center;
   justify-content: flex-end;
+
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 .link-icon {
   margin-right: 10px;
   fill: currentColor;
 }
-.current::after {
+.link.current::after {
   content: "";
   display: block;
   width: 100%;
@@ -231,6 +236,9 @@ p {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 .social-icon {
   fill: currentColor;
@@ -293,6 +301,9 @@ footer {
   width: 44px;
   height: 44px;
   border-radius: 50%;
+
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 .footer-icon {
   fill: currentColor;
@@ -366,6 +377,9 @@ footer {
   fill: #afb1b8;
   width: 170px;
   height: 90px;
+
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .partner-icon :nth-child {
@@ -566,6 +580,9 @@ ul .features {
   border-radius: 4px;
 
   padding: 6px 22px;
+
+  transition-duration: 250ms;
+  transition-timing-function: var(--timing-function);
 }
 
 .portfolio-menu {
