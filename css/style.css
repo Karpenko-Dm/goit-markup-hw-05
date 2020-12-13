@@ -640,7 +640,7 @@ ul .features {
   letter-spacing: 0.03em;
   border-color: transparent;
   border-radius: 4px;
-
+  background-color: #f5f4fa;
   padding: 6px 22px;
 
   transition-duration: 250ms;
@@ -740,7 +740,7 @@ button:focus {
   line-height: 1.55;
   letter-spacing: 0.03em;
 
-  padding: 24px 63px;
+  padding: 63px 24px;
   color: #ffffff;
 }
 .portfolio-item-link:hover .overlay-text {
